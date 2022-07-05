@@ -59,7 +59,9 @@ p{
     
 }
 .about__me{
-    background-image: url(/images/shapes/7.png);
+    
+    background-repeat: no-repeat;
+   background: #fffbfb;
 }
 .about__h{
     font-size: 40px;
@@ -158,4 +160,7 @@ ion-icon{
     background: rgba(197, 193, 193, 0.475);
     padding: 0 10px;
     border-radius: 2px;
+}
+.card img{
+    width: 100%;
 }
